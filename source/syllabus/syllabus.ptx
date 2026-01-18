@@ -227,7 +227,53 @@
       <title>Final Grades</title>
 
       <p>
+        Grades will be computed based on the number of learning targets you have demonstrated mastery on and your level of mathematical engagement, according to the following table.
+      </p>
+
+
+      <tabular>
+        <col right="minor" halign="right"/><col right="minor" halign="center"/><col right="minor" halign="center"/><col right="minor" halign="center"/><col halign="center"/>
+        <row header="yes" bottom="minor">
+          <cell></cell>
+          <cell>A</cell>
+          <cell>B</cell>
+          <cell>C</cell>
+          <cell>D</cell>
+        </row>
+
+        <row bottom="minor">
+          <cell halign="right">M (or E) level Learning Targets</cell>
+          <cell>15</cell>
+          <cell>12</cell>
+          <cell>9</cell>
+          <cell>6</cell>
+        </row>
+
+        <row bottom="minor">
+          <cell halign="right">E level Learning Targets</cell>
+          <cell>8</cell>
+          <cell>5</cell>
+          <cell>2</cell>
+          <cell>0</cell>
+        </row>
+
+        <row>
+          <cell halign="right">Engagement Score</cell>
+          <cell>90%</cell>
+          <cell>80%</cell>
+          <cell>70%</cell>
+          <cell>60%</cell>
+        </row>
+      </tabular>
+
+      <p>
+        To receive a particular grade, you must meet or exceed the requirements for that grade in <em>all three</em> categories.
+        If you do not meet the requirements for a <q>D</q>, your final grade will be an <q>F.</q>
       </p>
     </paragraphs>
   </subsection>
+
+  <!-- include policies -->
+  <xi:include href="./policies.ptx"/>
+
 </section>
